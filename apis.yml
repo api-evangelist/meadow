@@ -1,9 +1,28 @@
 aid: meadow
 name: Meadow
-description: 'Meadow is a company surfaced as a portfolio company of matrix-partners, y-combinator and
-  added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Meadow is a financial technology company delivering modern student financial
+  services to colleges and universities. Its platform spans the full student
+  financial lifecycle — Meadow Price (a mobile, SAI-compliant net price
+  calculator), Meadow Pay (student billing and payments with automated
+  workflows), Meadow Pre (pre-collections for recovering unpaid tuition), and
+  Meadow Checkout (campus-wide collection of non-tuition fees). Meadow helps
+  institutions improve enrollment, retention, and payment outcomes from
+  application through graduation. Backed by Matrix Partners and Y Combinator. No
+  public API or developer platform is published as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/meadow/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62fa0e175b54e40002e4209d/630c821581ab10afc02ca25f_Open%20Graph.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Education
+- Higher Education
+- Student Payments
+- Billing
+- EdTech
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,26 @@ maintainers:
 common:
 - type: Website
   url: https://meadowfi.com
+- type: Blog
+  url: https://meadowfi.com/blog
+- type: StatusPage
+  url: https://status.meadowfi.com/
+- type: TermsOfService
+  url: https://meadowfi.com/legal/terms-conditions
+- type: PrivacyPolicy
+  url: https://meadowfi.com/legal/privacy-policy
+- type: Careers
+  url: https://meadowfi.com/careers
+- type: CaseStudies
+  url: https://meadowfi.com/case-studies
+- type: Demo
+  url: https://hello.meadowfi.com/request-a-demo
+- type: LinkedIn
+  url: https://www.linkedin.com/company/meadowfi/
+- type: DomainSecurity
+  url: security/meadow-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
